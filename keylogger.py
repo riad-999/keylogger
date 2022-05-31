@@ -89,20 +89,6 @@ def copy_clipboard():
         except:
             f.write("Clipboard could be not be copied")
 
-# get the microphone
-
-
-# def microphone():
-#     global file_path, extend, audio_information, microphone_time
-#     fs = 44100
-#     seconds = microphone_time
-
-#     myrecording = sd.rec(int(seconds * fs), samplerate=fs, channels=2)
-#     sd.wait()
-
-#     write(file_path + extend + audio_information, fs, myrecording)
-
-
 # get screenshots
 
 
