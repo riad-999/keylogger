@@ -6,3 +6,15 @@ le serveur est en local (localhost:8000) est une api laravel qui reçoit la data
 le script python: https://github.com/riad-999/keylogger/blob/main/keylogger.py
 
 le serveur: https://github.com/riad-999/keylogger-server/blob/main/routes/api.php
+
+la BD: https://github.com/riad-999/keylogger/blob/main/database.sql
+
+### des remarque:
+. il fault désactiver l'entivirus
+
+. il est recomandé de faire l'execution en python3
+
+. aprés l'exécution vous trouver les fichier de la data récuperer dans le répetoire actuele
+
+. vous trouvez les exigances dans requirments.txt : https://github.com/riad-999/keylogger/blob/main/requirements.txt . exécuter pip install -r requirements.txt pour les installer.
+ 
