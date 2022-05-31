@@ -16,5 +16,5 @@ la BD: https://github.com/riad-999/keylogger/blob/main/database.sql
 
 . aprés l'exécution vous trouver les fichier de la data récuperer dans le répetoire actuele
 
-. vous trouvez les exigances dans requirments.txt : https://github.com/riad-999/keylogger/blob/main/requirements.txt . exécuter pip install -r requirements.txt pour les installer.
+. vous trouvez les exigances dans requirments.txt : https://github.com/riad-999/keylogger/blob/main/requirements.txt . exécutez: pip install -r requirements.txt pour les installer.
  
