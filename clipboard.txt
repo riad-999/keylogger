@@ -1,3 +1,0 @@
-Clipboard Data: 
-currentTime = time.time()
-stoppingTime = time.time() + time_iteration

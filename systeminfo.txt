@@ -1,6 +1,0 @@
-Public IP Address: 105.98.146.239
-Processor: AMD64 Family 23 Model 24 Stepping 1, AuthenticAMD
-System: Windows 10.0.19044
-Machine: AMD64
-Hostname: riadPC
-Private IP Address: 192.168.0.1
