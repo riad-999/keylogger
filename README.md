@@ -9,7 +9,7 @@ le serveur: https://github.com/riad-999/keylogger-server/blob/main/routes/api.ph
 
 la BD: https://github.com/riad-999/keylogger/blob/main/database.sql
 
-### des remarque:
+### des remarques:
 . il fault désactiver l'entivirus
 
 . il est recomandé de faire l'execution en python3
